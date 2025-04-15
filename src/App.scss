@@ -1,0 +1,29 @@
+// App.scss
+$primary-color: #6200ea;
+
+li {
+  font-size: 1.2rem;
+  color: $primary-color;
+  line-height: 1.5;
+}
+.my-app {
+  background: $primary-color;
+  color: white;
+  padding: 2rem;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .button {
+    background: darken($primary-color, 10%);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      background: lighten($primary-color, 10%);
+    }
+  }
+}
